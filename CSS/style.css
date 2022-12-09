@@ -107,3 +107,23 @@ header {
   text-align: justify;
   padding: 1.5rem;
 }
+
+/* Work Section */
+
+.my-work {
+  display: flex;
+  flex-direction: column;
+}
+.main-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.main-card-content {
+  /* display: block; */
+  width: fit-content;
+  padding: 0.5rem;
+  border: 3px solid #d9e2e9;
+  background-color: #2c6d71;
+  opacity: 0.6;
+}
