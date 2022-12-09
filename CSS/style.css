@@ -68,3 +68,42 @@ header {
   background: transparent;
   color: #d9e2e9;
 }
+
+/* Main section */
+.page-wrapper {
+  margin-top: 1rem;
+}
+.row {
+  margin-bottom: 1rem;
+}
+/* About me Section */
+
+.main-col {
+  border-right: 0.5rem solid #2c6d71;
+}
+.main-col h2 {
+  font-size: 48px;
+  font-weight: 600;
+  opacity: 0.6;
+  text-align: end;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 2rem;
+  align-items: center;
+}
+
+.about-me img {
+  max-height: 25rem;
+  border: 0.5rem solid #2c6d71;
+}
+.about-me p {
+  display: block;
+  height: 25rem;
+  font-size: 20px;
+  text-align: justify;
+  padding: 1.5rem;
+}
