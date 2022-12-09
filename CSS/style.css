@@ -73,7 +73,7 @@ header {
 .page-wrapper {
   margin-top: 1rem;
 }
-.row {
+.page-section {
   margin-bottom: 1rem;
 }
 /* About me Section */
@@ -106,4 +106,74 @@ header {
   font-size: 20px;
   text-align: justify;
   padding: 1.5rem;
+}
+
+/* Work Section */
+
+.my-work {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.main-project {
+  margin-bottom: 2rem;
+}
+.main-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 0.5rem solid #2c6d71;
+}
+.main-card-content {
+  width: fit-content;
+  padding: 0.5rem;
+  border: 3px solid #d9e2e9;
+  background-color: #2c6d71;
+  opacity: 0.6;
+}
+
+.mini-projects {
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border: 3px solid #d9e2e9;
+}
+
+.pro-2 {
+  background-image: url(../Images/02-portfolio-2.jpg);
+}
+.pro-3 {
+  background-image: url(../Images/02-portfolio-3.jpg);
+}
+
+.pro-4 {
+  background-image: url(../Images/02-portfolio-4.jpg);
+}
+.pro-5 {
+  background-image: url(../Images/02-run-buddy.jpg);
+}
+.pro-2,
+.pro-3,
+.pro-4,
+.pro-5 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0.5rem solid #2c6d71;
+}
+
+.mini-card-content {
+  width: fit-content;
+  padding: 0.3rem;
+  border: 3px solid #d9e2e9;
+  background-color: #2c6d71;
+  opacity: 0.6;
+  color: white;
+}
+.mini-card-content h5,
+.mini-card-content p {
+  padding: 0;
+  margin: 0;
 }
