@@ -87,7 +87,9 @@ header {
   opacity: 0.6;
   text-align: end;
 }
-
+.about-me-card {
+  border: 0.5rem solid #2c6d71;
+}
 .about-me img {
   max-height: 30rem;
   border: 0.5rem solid #2c6d71;
@@ -97,35 +99,43 @@ header {
   height: 30rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   opacity: 0.6;
 }
 .about-me-content p {
   font-size: 18px;
   text-align: justify;
+  margin-bottom: 3rem;
 }
 
+.contact-details {
+  text-align: center;
+  padding-top: 0.2rem;
+}
+
+.contact-details h5 {
+  font-size: 30px;
+}
 .contact-details address {
+  font-size: 18px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.contact-details {
-  text-align: center;
-  padding-top: 0.2rem;
-}
+
 .contact-details address a {
   padding: 0.2rem 3rem;
   text-decoration: none;
   color: black;
+  transition: transform, 0.5s;
 }
 
 .contact-details address a:hover {
   color: #2c6d71;
-  font-weight: bolder;
   opacity: 1;
+  transform: scale(1.5);
 }
 
 /* Work Section */
