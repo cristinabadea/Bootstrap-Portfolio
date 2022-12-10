@@ -88,24 +88,43 @@ header {
   text-align: end;
 }
 
-.about-me {
+.about-me img {
+  max-height: 30rem;
+  border: 0.5rem solid #2c6d71;
+  margin-left: 1rem;
+}
+.about-me-content {
+  height: 30rem;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  column-gap: 2rem;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  opacity: 0.6;
+}
+.about-me-content p {
+  font-size: 18px;
+  text-align: justify;
 }
 
-.about-me img {
-  max-height: 25rem;
-  border: 0.5rem solid #2c6d71;
+.contact-details address {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.about-me p {
-  display: block;
-  height: 25rem;
-  font-size: 20px;
-  text-align: justify;
-  padding: 1.5rem;
+.contact-details {
+  text-align: center;
+  padding-top: 0.2rem;
+}
+.contact-details address a {
+  padding: 0.2rem 3rem;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-details address a:hover {
+  color: #2c6d71;
+  font-weight: bolder;
 }
 
 /* Work Section */
