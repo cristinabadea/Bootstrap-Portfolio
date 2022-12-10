@@ -215,9 +215,9 @@ header {
 }
 .skills li {
   text-align: center;
-  color: #2c6d71;
+  opacity: 0.6;
 }
 
 .skills li:hover {
-  background-color: rgb(194, 189, 189);
+  background-color: #2c6d71;
 }
