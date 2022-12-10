@@ -125,6 +125,7 @@ header {
 .contact-details address a:hover {
   color: #2c6d71;
   font-weight: bolder;
+  opacity: 1;
 }
 
 /* Work Section */
