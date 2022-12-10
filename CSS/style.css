@@ -148,8 +148,9 @@ header {
 }
 
 .main-project {
-  margin-bottom: 2rem;
+  opacity: 0.6;
 }
+
 .main-card {
   display: flex;
   flex-direction: column;
@@ -185,13 +186,28 @@ header {
 .pro-5 {
   background-image: url(../Images/02-run-buddy.jpg);
 }
-.pro-2,
-.pro-3,
-.pro-4,
-.pro-5 {
+
+.mini-projects {
   background-repeat: no-repeat;
   background-size: cover;
   border: 0.5rem solid #2c6d71;
+  opacity: 0.6;
+}
+
+.main-project:hover {
+  opacity: 1;
+}
+.pro-2:hover {
+  opacity: 1;
+}
+.pro-3:hover {
+  opacity: 1;
+}
+.pro-4:hover {
+  opacity: 1;
+}
+.pro-5:hover {
+  opacity: 1;
 }
 
 .mini-card-content {
