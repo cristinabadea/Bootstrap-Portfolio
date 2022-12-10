@@ -197,3 +197,17 @@ header {
   padding: 0;
   margin: 0;
 }
+
+/* Skills section */
+
+.skills {
+  border: 0.5rem solid #2c6d71;
+}
+.skills li {
+  text-align: center;
+  color: #2c6d71;
+}
+
+.skills li:hover {
+  background-color: rgb(194, 189, 189);
+}
