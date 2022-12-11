@@ -17,10 +17,11 @@ N/A
 
 ### Header (Nav + Hero)
 
-- Bootstrap: Navbar component and Jumbotron component under the Header section;
+- Bootstrap: Navbar component and Jumbotron component under the Header section, Sticky Navbar;
 - Animated logo when hovering over;
 - Web sections are easily accesible from the navigation bar, which was also styled when hovering over;
 - Links have a shadow box when hovering over;
+
 - Hamburger menu with dropdown when accessing on smaller devices;
 - Responsive when accessing from different devices;
 
