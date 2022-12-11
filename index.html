@@ -21,12 +21,13 @@
     <!-- My style here -->
     <link rel="stylesheet" href="./CSS/style.css" />
 
-    <title>Bootstrap Portfolio</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/df8c15e3e6.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <!-- Header -->
-    <header>
+    <header id="header">
       <!-- Nav -->
       <nav class="navbar sticky-top navbar-expand-lg my-nav">
         <img
@@ -219,7 +220,23 @@
     </main>
 
     <!-- Footer section starts here -->
-    <footer></footer>
+    <footer class="footer container-fluid">
+      <div class="row footer-row d-flex justify-content-end">
+        <div class="col-11 footer-main">
+          <h2>Thank you for visiting my page!</h2>
+          <h5>Spread the word!</h5>
+          <ul class="social-links">
+            <li><a href="https://wwww.facebook.com"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+            <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+            <li><a href="https://www.linkedIn.com"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
+            <li><a href="https://www.github.com"><i class="fa-brands fa-github"></i>GitHub</a></li>
+          </ul>
+        </div>
+        <div class="col-1 footer-aside">
+          <button class="btn my-btn"><a href="#header">Back on top!</a></button>
+        </div>
+      </div>
+    </footer>
 
     <!--  Bootstrap JavaScript plugin  -->
     <script
