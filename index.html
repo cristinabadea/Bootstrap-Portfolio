@@ -29,13 +29,14 @@
     <!-- Header -->
     <header id="header">
       <!-- Nav -->
-      <nav class="navbar sticky-top navbar-expand-lg my-nav">
-        <img
+      <nav class="nav navbar sticky-top navbar-expand-lg flex-lg-row flex-md-row flex-sm-column my-nav">
+        <a class="navbar my-title" href="./index.html">
+          <img
           src="https://www.pngkey.com/png/detail/1010-10107790_kathi-online-avatar-maker.png"
           alt="avatar-logo"
         />
-        <a class="navbar my-title" href="./index.html">Tina G</a>
-        <button
+          Tina G</a>
+        <!-- <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -43,16 +44,26 @@
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        >Menu</button>
+          <span class=" nav d-md-none navbar-toggler-icon"></span>
+        </button> -->
+        <ul class="nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="fa-solid fa-bars"></i></a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#about">About me</a>
+            <a class="dropdown-item" href="#skills">Skills</a>
+            <a class="dropdown-item" href="#work">Work</a>
+          </div>
+        </li>
+      </ul>
         <div
-          class="collapse navbar-collapse d-flex justify-content-end"
+          class="collapse navbar-collapse d-sm-none justify-content-end "
           id="navbarNav"
         >
           <ul class="navbar-nav my-links">
             <li class="nav-item active">
-              <a class="nav-link" href="#about">About me</a>
+              <a class="nav-link " href="#about">About me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#skills">Skills</a>
