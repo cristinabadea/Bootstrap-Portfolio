@@ -1,6 +1,6 @@
 <!-- @format -->
 
-# Challenge Week 2
+# Bootstrap - Portfolio
 
 ## Description
 
